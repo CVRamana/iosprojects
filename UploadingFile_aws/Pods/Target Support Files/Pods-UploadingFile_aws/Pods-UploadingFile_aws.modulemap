@@ -1,0 +1,6 @@
+framework module Pods_UploadingFile_aws {
+  umbrella header "Pods-UploadingFile_aws-umbrella.h"
+
+  export *
+  module * { export * }
+}

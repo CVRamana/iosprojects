@@ -1,0 +1,6 @@
+framework module Pods_FbLoginWithFirebase_new {
+  umbrella header "Pods-FbLoginWithFirebase_new-umbrella.h"
+
+  export *
+  module * { export * }
+}

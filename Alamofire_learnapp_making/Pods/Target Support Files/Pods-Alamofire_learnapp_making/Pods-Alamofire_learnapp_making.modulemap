@@ -1,0 +1,6 @@
+framework module Pods_Alamofire_learnapp_making {
+  umbrella header "Pods-Alamofire_learnapp_making-umbrella.h"
+
+  export *
+  module * { export * }
+}

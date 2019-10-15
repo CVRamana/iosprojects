@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>787023544895-o67aopuq14i0o6piv9doeoslr445b1pd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.787023544895-o67aopuq14i0o6piv9doeoslr445b1pd</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCCL1_KLVAwBdSZiR4MN0x1WAjGnbm1Opg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>787023544895</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.appinventiv.messagingapp</string>
+	<key>PROJECT_ID</key>
+	<string>messagingapp-95514</string>
+	<key>STORAGE_BUCKET</key>
+	<string>messagingapp-95514.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:787023544895:ios:2d2f5ab2db04f5037b6e8a</string>
+	<key>DATABASE_URL</key>
+	<string>https://messagingapp-95514.firebaseio.com</string>
+</dict>
+</plist>

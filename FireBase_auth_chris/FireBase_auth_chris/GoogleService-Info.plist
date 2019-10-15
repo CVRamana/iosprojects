@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>224239951929-40e3vnkvh9rilpage3jl20hd02g86k4r.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.224239951929-40e3vnkvh9rilpage3jl20hd02g86k4r</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDTJ2k0s5QtdKOqLxtq8WiUjYkQUfCMv6w</string>
+	<key>GCM_SENDER_ID</key>
+	<string>224239951929</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.app.FireBase-auth-chris</string>
+	<key>PROJECT_ID</key>
+	<string>fir-authchris</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-authchris.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:224239951929:ios:63a13b3acb8aeabbb1ede8</string>
+	<key>DATABASE_URL</key>
+	<string>https://fir-authchris.firebaseio.com</string>
+</dict>
+</plist>

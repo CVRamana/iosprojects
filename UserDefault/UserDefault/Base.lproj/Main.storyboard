@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UserDefault" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="abU-1E-47E">
+                                <rect key="frame" x="20" y="74" width="374" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="QQ2-6p-fWb"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segementedTapped:" destination="BYZ-38-t0r" eventType="valueChanged" id="FI4-6A-8Sh"/>
+                                </connections>
+                            </segmentedControl>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xj1-q0-cQP">
+                                <rect key="frame" x="107" y="157" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Iyf-ks-v4n"/>
+                                    <constraint firstAttribute="height" constant="200" id="y6j-9W-AWL"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tay-sV-pYf">
+                                <rect key="frame" x="20" y="407" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Kiz-If-My8"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W5d-xH-c8O">
+                                <rect key="frame" x="170" y="487" width="74" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="UgK-Yd-AzM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="saveDefaultTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dqt-ar-Una"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="W5d-xH-c8O" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="170" id="9Ok-m4-FUt"/>
+                            <constraint firstItem="tay-sV-pYf" firstAttribute="top" secondItem="xj1-q0-cQP" secondAttribute="bottom" constant="50" id="EF6-Q8-2YD"/>
+                            <constraint firstItem="W5d-xH-c8O" firstAttribute="top" secondItem="tay-sV-pYf" secondAttribute="bottom" constant="30" id="SMD-iG-l9L"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tay-sV-pYf" secondAttribute="trailing" constant="20" id="aMk-aX-4aj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xj1-q0-cQP" secondAttribute="trailing" constant="107" id="ber-Zl-ffV"/>
+                            <constraint firstItem="abU-1E-47E" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="dO5-hN-FF1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W5d-xH-c8O" secondAttribute="trailing" constant="170" id="dvV-Lm-JfU"/>
+                            <constraint firstItem="abU-1E-47E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="gSj-ZO-Gg7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="abU-1E-47E" secondAttribute="trailing" constant="20" id="n3Q-4R-6ws"/>
+                            <constraint firstItem="xj1-q0-cQP" firstAttribute="top" secondItem="abU-1E-47E" secondAttribute="bottom" constant="48" id="oRS-Yb-dpQ"/>
+                            <constraint firstItem="xj1-q0-cQP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="phi-rU-c4w"/>
+                            <constraint firstItem="tay-sV-pYf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="v3l-52-Aca"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="saveDefault" destination="W5d-xH-c8O" id="gQw-z2-Jng"/>
+                        <outlet property="segmentedControl" destination="abU-1E-47E" id="M5z-HM-9hv"/>
+                        <outlet property="textfield" destination="tay-sV-pYf" id="d5I-tB-ulW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="109.82142857142857"/>
+        </scene>
+    </scenes>
+</document>

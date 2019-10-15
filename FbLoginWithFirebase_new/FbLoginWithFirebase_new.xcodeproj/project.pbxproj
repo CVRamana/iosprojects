@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845345D82341DEE400011985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845345D72341DEE400011985 /* AppDelegate.swift */; };
+		845345DA2341DEE400011985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845345D92341DEE400011985 /* ViewController.swift */; };
+		845345DD2341DEE400011985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845345DB2341DEE400011985 /* Main.storyboard */; };
+		845345E02341DEE400011985 /* FbLoginWithFirebase_new.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 845345DE2341DEE400011985 /* FbLoginWithFirebase_new.xcdatamodeld */; };
+		845345E22341DEE600011985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845345E12341DEE600011985 /* Assets.xcassets */; };
+		845345E52341DEE600011985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845345E32341DEE600011985 /* LaunchScreen.storyboard */; };
+		845345ED2341E3F200011985 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 845345EC2341E3E600011985 /* GoogleService-Info.plist */; };
+		99AB2C6E6F7BDB1144D2D018 /* Pods_FbLoginWithFirebase_new.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE75A8E3E355460DE4B60E2 /* Pods_FbLoginWithFirebase_new.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		131D3A5A822D6B1E6CEFFEF5 /* Pods-FbLoginWithFirebase_new.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FbLoginWithFirebase_new.debug.xcconfig"; path = "Target Support Files/Pods-FbLoginWithFirebase_new/Pods-FbLoginWithFirebase_new.debug.xcconfig"; sourceTree = "<group>"; };
+		7AE75A8E3E355460DE4B60E2 /* Pods_FbLoginWithFirebase_new.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FbLoginWithFirebase_new.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		845345D42341DEE400011985 /* FbLoginWithFirebase_new.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FbLoginWithFirebase_new.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845345D72341DEE400011985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		845345D92341DEE400011985 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		845345DC2341DEE400011985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		845345DF2341DEE400011985 /* FbLoginWithFirebase_new.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FbLoginWithFirebase_new.xcdatamodel; sourceTree = "<group>"; };
+		845345E12341DEE600011985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845345E42341DEE600011985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		845345E62341DEE600011985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845345EC2341E3E600011985 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		92A8656A0C27ED5CA318B318 /* Pods-FbLoginWithFirebase_new.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FbLoginWithFirebase_new.release.xcconfig"; path = "Target Support Files/Pods-FbLoginWithFirebase_new/Pods-FbLoginWithFirebase_new.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845345D12341DEE400011985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99AB2C6E6F7BDB1144D2D018 /* Pods_FbLoginWithFirebase_new.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E1B204132140C8224579EED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AE75A8E3E355460DE4B60E2 /* Pods_FbLoginWithFirebase_new.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		576F42F79D00133994FCAE6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				131D3A5A822D6B1E6CEFFEF5 /* Pods-FbLoginWithFirebase_new.debug.xcconfig */,
+				92A8656A0C27ED5CA318B318 /* Pods-FbLoginWithFirebase_new.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		845345CB2341DEE400011985 = {
+			isa = PBXGroup;
+			children = (
+				845345D62341DEE400011985 /* FbLoginWithFirebase_new */,
+				845345D52341DEE400011985 /* Products */,
+				576F42F79D00133994FCAE6A /* Pods */,
+				2E1B204132140C8224579EED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		845345D52341DEE400011985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845345D42341DEE400011985 /* FbLoginWithFirebase_new.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845345D62341DEE400011985 /* FbLoginWithFirebase_new */ = {
+			isa = PBXGroup;
+			children = (
+				845345D72341DEE400011985 /* AppDelegate.swift */,
+				845345D92341DEE400011985 /* ViewController.swift */,
+				845345DB2341DEE400011985 /* Main.storyboard */,
+				845345E12341DEE600011985 /* Assets.xcassets */,
+				845345E32341DEE600011985 /* LaunchScreen.storyboard */,
+				845345EC2341E3E600011985 /* GoogleService-Info.plist */,
+				845345E62341DEE600011985 /* Info.plist */,
+				845345DE2341DEE400011985 /* FbLoginWithFirebase_new.xcdatamodeld */,
+			);
+			path = FbLoginWithFirebase_new;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845345D32341DEE400011985 /* FbLoginWithFirebase_new */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845345E92341DEE600011985 /* Build configuration list for PBXNativeTarget "FbLoginWithFirebase_new" */;
+			buildPhases = (
+				2BA60AD715036E83A9B0E398 /* [CP] Check Pods Manifest.lock */,
+				845345D02341DEE400011985 /* Sources */,
+				845345D12341DEE400011985 /* Frameworks */,
+				845345D22341DEE400011985 /* Resources */,
+				9F84475B0E101A879E15F8C4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FbLoginWithFirebase_new;
+			productName = FbLoginWithFirebase_new;
+			productReference = 845345D42341DEE400011985 /* FbLoginWithFirebase_new.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845345CC2341DEE400011985 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Appinventiv;
+				TargetAttributes = {
+					845345D32341DEE400011985 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 845345CF2341DEE400011985 /* Build configuration list for PBXProject "FbLoginWithFirebase_new" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 845345CB2341DEE400011985;
+			productRefGroup = 845345D52341DEE400011985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845345D32341DEE400011985 /* FbLoginWithFirebase_new */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845345D22341DEE400011985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845345E52341DEE600011985 /* LaunchScreen.storyboard in Resources */,
+				845345E22341DEE600011985 /* Assets.xcassets in Resources */,
+				845345ED2341E3F200011985 /* GoogleService-Info.plist in Resources */,
+				845345DD2341DEE400011985 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BA60AD715036E83A9B0E398 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FbLoginWithFirebase_new-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F84475B0E101A879E15F8C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FbLoginWithFirebase_new/Pods-FbLoginWithFirebase_new-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FbLoginWithFirebase_new/Pods-FbLoginWithFirebase_new-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FbLoginWithFirebase_new/Pods-FbLoginWithFirebase_new-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845345D02341DEE400011985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845345DA2341DEE400011985 /* ViewController.swift in Sources */,
+				845345E02341DEE400011985 /* FbLoginWithFirebase_new.xcdatamodeld in Sources */,
+				845345D82341DEE400011985 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		845345DB2341DEE400011985 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845345DC2341DEE400011985 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		845345E32341DEE600011985 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845345E42341DEE600011985 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845345E72341DEE600011985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		845345E82341DEE600011985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845345EA2341DEE600011985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 131D3A5A822D6B1E6CEFFEF5 /* Pods-FbLoginWithFirebase_new.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YV87LWGXGF;
+				INFOPLIST_FILE = FbLoginWithFirebase_new/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.FbLoginWithFirebase-new";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		845345EB2341DEE600011985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92A8656A0C27ED5CA318B318 /* Pods-FbLoginWithFirebase_new.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YV87LWGXGF;
+				INFOPLIST_FILE = FbLoginWithFirebase_new/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.FbLoginWithFirebase-new";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845345CF2341DEE400011985 /* Build configuration list for PBXProject "FbLoginWithFirebase_new" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845345E72341DEE600011985 /* Debug */,
+				845345E82341DEE600011985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845345E92341DEE600011985 /* Build configuration list for PBXNativeTarget "FbLoginWithFirebase_new" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845345EA2341DEE600011985 /* Debug */,
+				845345EB2341DEE600011985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		845345DE2341DEE400011985 /* FbLoginWithFirebase_new.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				845345DF2341DEE400011985 /* FbLoginWithFirebase_new.xcdatamodel */,
+			);
+			currentVersion = 845345DF2341DEE400011985 /* FbLoginWithFirebase_new.xcdatamodel */;
+			path = FbLoginWithFirebase_new.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 845345CC2341DEE400011985 /* Project object */;
+}

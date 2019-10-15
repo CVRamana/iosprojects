@@ -1,0 +1,6 @@
+framework module Pods_Facebook_firebase_login {
+  umbrella header "Pods-Facebook_firebase_login-umbrella.h"
+
+  export *
+  module * { export * }
+}

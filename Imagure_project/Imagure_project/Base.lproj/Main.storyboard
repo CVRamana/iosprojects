@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Imagure_project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="EJj-xF-Vmy">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jsp-1U-ZKo">
+                                    <size key="itemSize" width="112" height="106"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImgurCell" id="NXF-W6-NBQ" customClass="ImgurCell" customModule="Imagure_project" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="112" height="106"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="112" height="106"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="szy-Ve-DQk">
+                                                    <rect key="frame" x="0.0" y="0.0" width="112" height="106"/>
+                                                </imageView>
+                                                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JcJ-fg-dAh">
+                                                    <rect key="frame" x="0.0" y="80" width="112" height="26"/>
+                                                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Hnh-IX-Yse">
+                                                        <rect key="frame" x="0.0" y="0.0" width="112" height="26"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5EW-YG-hmy">
+                                                                <rect key="frame" x="0.0" y="0.0" width="112" height="26"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="5EW-YG-hmy" firstAttribute="top" secondItem="Hnh-IX-Yse" secondAttribute="top" id="0OF-zg-bcK"/>
+                                                            <constraint firstAttribute="bottom" secondItem="5EW-YG-hmy" secondAttribute="bottom" id="9Wb-ri-4zH"/>
+                                                            <constraint firstAttribute="trailing" secondItem="5EW-YG-hmy" secondAttribute="trailing" id="bN5-YM-eev"/>
+                                                            <constraint firstItem="5EW-YG-hmy" firstAttribute="leading" secondItem="Hnh-IX-Yse" secondAttribute="leading" id="cZk-gL-aNl"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <blurEffect style="light"/>
+                                                </visualEffectView>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="JcJ-fg-dAh" firstAttribute="top" secondItem="NXF-W6-NBQ" secondAttribute="top" constant="80" id="VB4-2l-lVW"/>
+                                            <constraint firstAttribute="trailing" secondItem="JcJ-fg-dAh" secondAttribute="trailing" id="W1V-ba-12s"/>
+                                            <constraint firstItem="JcJ-fg-dAh" firstAttribute="leading" secondItem="NXF-W6-NBQ" secondAttribute="leading" id="YJG-pU-E1L"/>
+                                            <constraint firstAttribute="bottom" secondItem="szy-Ve-DQk" secondAttribute="bottom" id="Z8f-JH-cKx"/>
+                                            <constraint firstAttribute="trailing" secondItem="szy-Ve-DQk" secondAttribute="trailing" id="gX2-oP-56Q"/>
+                                            <constraint firstAttribute="bottom" secondItem="JcJ-fg-dAh" secondAttribute="bottom" id="jdf-lS-d6f"/>
+                                            <constraint firstItem="szy-Ve-DQk" firstAttribute="top" secondItem="NXF-W6-NBQ" secondAttribute="top" id="kPd-Pk-42J"/>
+                                            <constraint firstItem="szy-Ve-DQk" firstAttribute="leading" secondItem="NXF-W6-NBQ" secondAttribute="leading" id="uCw-yS-dOp"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="imageView" destination="szy-Ve-DQk" id="ihl-wa-iNx"/>
+                                            <outlet property="titleLabel" destination="5EW-YG-hmy" id="95a-ae-vrL"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="lv6-LD-M8a"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EJj-xF-Vmy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="1om-kw-fkp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EJj-xF-Vmy" secondAttribute="trailing" id="EVR-5i-2Dz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EJj-xF-Vmy" secondAttribute="bottom" id="Hgz-TQ-3rM"/>
+                            <constraint firstItem="EJj-xF-Vmy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KKE-bz-QPh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="EJj-xF-Vmy" id="jx0-KA-EG8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112.5" y="95.070422535211264"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'FireBase_auth_chris' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for FireBase_auth_chris
+    pod 'Firebase/Analytics'
+    pod 'FirebaseUI/Auth'
+
+end

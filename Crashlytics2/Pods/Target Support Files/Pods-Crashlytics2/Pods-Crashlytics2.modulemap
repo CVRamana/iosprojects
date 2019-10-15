@@ -1,0 +1,6 @@
+framework module Pods_Crashlytics2 {
+  umbrella header "Pods-Crashlytics2-umbrella.h"
+
+  export *
+  module * { export * }
+}

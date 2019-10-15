@@ -1,0 +1,6 @@
+framework module Pods_FireBase_auth_chris {
+  umbrella header "Pods-FireBase_auth_chris-umbrella.h"
+
+  export *
+  module * { export * }
+}

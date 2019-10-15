@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		486241B8820600665AFDA478 /* Pods_Crashlytics2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3899E9531B008F3F5BE08B85 /* Pods_Crashlytics2.framework */; };
+		8457D6DE233BAE1D0066FF78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8457D6DD233BAE1D0066FF78 /* AppDelegate.swift */; };
+		8457D6E0233BAE1D0066FF78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8457D6DF233BAE1D0066FF78 /* ViewController.swift */; };
+		8457D6E3233BAE1D0066FF78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8457D6E1233BAE1D0066FF78 /* Main.storyboard */; };
+		8457D6E5233BAE1E0066FF78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8457D6E4233BAE1E0066FF78 /* Assets.xcassets */; };
+		8457D6E8233BAE1E0066FF78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8457D6E6233BAE1E0066FF78 /* LaunchScreen.storyboard */; };
+		8457D6F5233C686B0066FF78 /* GoogleService-Info-4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8457D6F4233C686B0066FF78 /* GoogleService-Info-4.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		231A49BC55044517AC0990A8 /* Pods-Crashlytics2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crashlytics2.release.xcconfig"; path = "Target Support Files/Pods-Crashlytics2/Pods-Crashlytics2.release.xcconfig"; sourceTree = "<group>"; };
+		3899E9531B008F3F5BE08B85 /* Pods_Crashlytics2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crashlytics2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8457D6DA233BAE1D0066FF78 /* Crashlytics2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crashlytics2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8457D6DD233BAE1D0066FF78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8457D6DF233BAE1D0066FF78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8457D6E2233BAE1D0066FF78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8457D6E4233BAE1E0066FF78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8457D6E7233BAE1E0066FF78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8457D6E9233BAE1E0066FF78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8457D6F4233C686B0066FF78 /* GoogleService-Info-4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-4.plist"; path = "../../../Downloads/GoogleService-Info-4.plist"; sourceTree = "<group>"; };
+		E8F7342DC4583B0D4F8C6F1D /* Pods-Crashlytics2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crashlytics2.debug.xcconfig"; path = "Target Support Files/Pods-Crashlytics2/Pods-Crashlytics2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8457D6D7233BAE1D0066FF78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486241B8820600665AFDA478 /* Pods_Crashlytics2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D916DE1201DE868806434B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8F7342DC4583B0D4F8C6F1D /* Pods-Crashlytics2.debug.xcconfig */,
+				231A49BC55044517AC0990A8 /* Pods-Crashlytics2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7FB246A4FEDEA451B5FA039B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3899E9531B008F3F5BE08B85 /* Pods_Crashlytics2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8457D6D1233BAE1D0066FF78 = {
+			isa = PBXGroup;
+			children = (
+				8457D6DC233BAE1D0066FF78 /* Crashlytics2 */,
+				8457D6DB233BAE1D0066FF78 /* Products */,
+				5D916DE1201DE868806434B7 /* Pods */,
+				7FB246A4FEDEA451B5FA039B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8457D6DB233BAE1D0066FF78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8457D6DA233BAE1D0066FF78 /* Crashlytics2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8457D6DC233BAE1D0066FF78 /* Crashlytics2 */ = {
+			isa = PBXGroup;
+			children = (
+				8457D6DD233BAE1D0066FF78 /* AppDelegate.swift */,
+				8457D6DF233BAE1D0066FF78 /* ViewController.swift */,
+				8457D6F4233C686B0066FF78 /* GoogleService-Info-4.plist */,
+				8457D6E1233BAE1D0066FF78 /* Main.storyboard */,
+				8457D6E4233BAE1E0066FF78 /* Assets.xcassets */,
+				8457D6E6233BAE1E0066FF78 /* LaunchScreen.storyboard */,
+				8457D6E9233BAE1E0066FF78 /* Info.plist */,
+			);
+			path = Crashlytics2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8457D6D9233BAE1D0066FF78 /* Crashlytics2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8457D6EC233BAE1E0066FF78 /* Build configuration list for PBXNativeTarget "Crashlytics2" */;
+			buildPhases = (
+				559144D43A05DE9B7086BF37 /* [CP] Check Pods Manifest.lock */,
+				8457D6D6233BAE1D0066FF78 /* Sources */,
+				8457D6D7233BAE1D0066FF78 /* Frameworks */,
+				8457D6D8233BAE1D0066FF78 /* Resources */,
+				3A6FBC7887AD00A8C41B38B0 /* [CP] Embed Pods Frameworks */,
+				8457D6F1233BCB120066FF78 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crashlytics2;
+			productName = Crashlytics2;
+			productReference = 8457D6DA233BAE1D0066FF78 /* Crashlytics2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8457D6D2233BAE1D0066FF78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Appinventiv;
+				TargetAttributes = {
+					8457D6D9233BAE1D0066FF78 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8457D6D5233BAE1D0066FF78 /* Build configuration list for PBXProject "Crashlytics2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8457D6D1233BAE1D0066FF78;
+			productRefGroup = 8457D6DB233BAE1D0066FF78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8457D6D9233BAE1D0066FF78 /* Crashlytics2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8457D6D8233BAE1D0066FF78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8457D6F5233C686B0066FF78 /* GoogleService-Info-4.plist in Resources */,
+				8457D6E8233BAE1E0066FF78 /* LaunchScreen.storyboard in Resources */,
+				8457D6E5233BAE1E0066FF78 /* Assets.xcassets in Resources */,
+				8457D6E3233BAE1D0066FF78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A6FBC7887AD00A8C41B38B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crashlytics2/Pods-Crashlytics2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crashlytics2/Pods-Crashlytics2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Crashlytics2/Pods-Crashlytics2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		559144D43A05DE9B7086BF37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Crashlytics2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8457D6F1233BCB120066FF78 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/Fabric/run\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8457D6D6233BAE1D0066FF78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8457D6E0233BAE1D0066FF78 /* ViewController.swift in Sources */,
+				8457D6DE233BAE1D0066FF78 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8457D6E1233BAE1D0066FF78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8457D6E2233BAE1D0066FF78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8457D6E6233BAE1E0066FF78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8457D6E7233BAE1E0066FF78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8457D6EA233BAE1E0066FF78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8457D6EB233BAE1E0066FF78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8457D6ED233BAE1E0066FF78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F7342DC4583B0D4F8C6F1D /* Pods-Crashlytics2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = YV87LWGXGF;
+				INFOPLIST_FILE = Crashlytics2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Crashlytics2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8457D6EE233BAE1E0066FF78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 231A49BC55044517AC0990A8 /* Pods-Crashlytics2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YV87LWGXGF;
+				INFOPLIST_FILE = Crashlytics2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Crashlytics2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8457D6D5233BAE1D0066FF78 /* Build configuration list for PBXProject "Crashlytics2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8457D6EA233BAE1E0066FF78 /* Debug */,
+				8457D6EB233BAE1E0066FF78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8457D6EC233BAE1E0066FF78 /* Build configuration list for PBXNativeTarget "Crashlytics2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8457D6ED233BAE1E0066FF78 /* Debug */,
+				8457D6EE233BAE1E0066FF78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8457D6D2233BAE1D0066FF78 /* Project object */;
+}
